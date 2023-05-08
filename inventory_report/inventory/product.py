@@ -27,14 +27,14 @@ class Product:
         )
 
 
-novo_produto = Product(
-    1,
-    "queijo",
-    "Queijaria",
-    "01/01/2023",
-    "01/02/2023",
-    1000,
-    "em local resfriado",
-)
-print(novo_produto)
-print(novo_produto.data_de_validade)
+# novo_produto = Product(
+#     1,
+#     "queijo",
+#     "Queijaria",
+#     "01/01/2023",
+#     "01/02/2023",
+#     1000,
+#     "em local resfriado",
+# )
+# print(novo_produto)
+# print(novo_produto.data_de_validade)
