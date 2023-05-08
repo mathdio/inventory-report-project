@@ -25,7 +25,7 @@ class SimpleReport:
         company_names = [
             product["nome_da_empresa"] for product in products_list
         ]
-        company_most_common = Counter(company_names).most_common()[0][0]
+        company_most_common, _ = Counter(company_names).most_common()[0]
 
         return (
             f"Data de fabricação mais antiga: {oldest_date}\n"

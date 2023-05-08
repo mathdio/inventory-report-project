@@ -26,15 +26,15 @@ class CompleteReport(SimpleReport):
         company_names = [
             product["nome_da_empresa"] for product in products_list
         ]
-        company_most_common = Counter(company_names).most_common()
+        companies_frequency = Counter(company_names).most_common()
 
         stock = "Produtos estocados por empresa:\n"
-        for company in company_most_common:
+        for company in companies_frequency:
             stock += f"- {company[0]}: {company[1]}\n"
 
         return (
             f"Data de fabricação mais antiga: {oldest_date}\n"
             f"Data de validade mais próxima: {closest_date}\n"
-            f"Empresa com mais produtos: {company_most_common[0][0]}\n"
+            f"Empresa com mais produtos: {companies_frequency[0][0]}\n"
             f"{stock}"
         )
