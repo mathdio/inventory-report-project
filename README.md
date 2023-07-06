@@ -41,9 +41,9 @@ If some issue occurs, you can alternatively run `python3 -m pytest -s -vv`.
 
 To execute one specifict test file, you can run the command with the file path. Example:
 ```
-python3 -m pytest tests/product/test_product.py
+python3 -m pytest tests/file_path/file_name.py
 ```
 To execute one specific test function, you can run the command with the flag `-k` and the function. Example:
 ```
-python3 -m pytest -k test_cria_produto
+python3 -m pytest -k function_name
 ```
