@@ -6,7 +6,7 @@
 A set of report generator as solutions to handle inventory data, developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
-Some files in this application were provided by [Trybe](https://www.betrybe.com).
+Some files may have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start.
 
 ## 🏁 Getting started
 ### 🐍 Installing Python 3
