@@ -1,6 +1,6 @@
 > # :construction: This README is still under construction! :construction:
 >
-> Although this README has some solid guidance, more info are yet to be added. The "About this project" section is incomplete, for example.
+> Although this README has some solid guidance, more info is yet to be added. The "About this project" section is incomplete, for example.
 
 # 📈 Inventory Report
 A set of report generator as solutions to handle inventory data, developed as a [Trybe](https://www.betrybe.com) Project.
