@@ -6,7 +6,7 @@
 A set of report generator as solutions to handle inventory data, developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
-Some files in this application were provided by [Trybe](https://www.betrybe.com), as the mock files for tests, for example.
+Some files in this application were provided by [Trybe](https://www.betrybe.com).
 
 ## 🏁 Getting started
 ### 🐍 Installing Python 3
@@ -38,9 +38,9 @@ If some issue occurs, you can alternatively run `python3 -m pytest -s -vv`.
 
 To execute one specifict test file, you can run the command with the file path. Example:
 ```
-python3 -m pytest tests/sorting/test_sorting.py
+python3 -m pytest tests/product/test_product.py
 ```
 To execute one specific test function, you can run the command with the flag `-k` and the function. Example:
 ```
-python3 -m pytest -k test_sort_by_criteria
+python3 -m pytest -k test_cria_produto
 ```
