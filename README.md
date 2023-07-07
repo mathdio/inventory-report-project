@@ -1,15 +1,17 @@
-> # :construction: This README is still under construction! :construction:
->
-> Although this README has some solid guidance, more info is yet to be added. The "About this project" section is incomplete, for example.
-
 # 📈 Inventory Report
 A set of report generator as solutions to handle inventory data, developed as a [Trybe](https://www.betrybe.com) Project.
 
 ## 💻 About this project
-Some files may have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start.
+This application is a report generator that receive a stock data file and generates a report based on the data. The imported files must be one of the following types: CSV, JSON or XML. The final report can be generated in two versions: simple or complete.
+
+Some files have been provided by [Trybe](https://www.betrybe.com) to accelerate the application development start or in order to be tested.
 
 ## 🛠️ Built with
 <a href="https://docs.python.org/3/" target="_blank" rel="noreferrer"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
+
+## 🎯 Used skills
+- Development under Object-Oriented Programming paradigm;
+- Software testing.
 
 ## 🏁 Getting started
 ### 🐍 Installing Python 3
